@@ -1,0 +1,101 @@
+@media all and (max-width: 1400px) {
+	.custom-block-second-img {
+		right: -30px;
+	}
+	.custom-block-first-img {
+		left: -30px;
+	}
+	.main-heading {
+		max-width: 650px;
+		font-size: 55px;
+		line-height: 75px;
+	}
+	.block-label {
+		margin-top: 70px;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.custom-block-second-img {
+		right: -180px;
+	}
+	.custom-block-first-img {
+		left: -180px;
+	}
+}
+
+@media all and (max-width: 575px) {
+	.box-heading {
+		text-align: center;
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.custom-inputs-body {
+		padding: 20px;
+		flex-direction: column;
+	}
+	.custom-inputs-list {
+		margin-right: 0;
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.modal-body {
+		padding: 15px;
+	}
+	.modal-content {
+		padding: 15px;
+	}
+	.primary-btn {
+		padding: 12px 20px;
+		margin: 0 auto;
+	}
+	.tabs a {
+		padding: 10px 15px;
+		text-align: center;
+	}
+	.tabs-section-card__head {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		margin-bottom: 15px;
+	}
+	.tabs-section-card {
+		padding: 15px;
+	}
+	.tabs-section-card__content {
+		overflow: auto;
+		table {
+			min-width: 400px;
+		}
+	}
+	.tabs-section-card__head .price {
+		font-size: 22px;
+	}
+	.main-heading {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.custom-block {
+		min-height: 0;
+		padding: 120px 0 50px;
+	}
+	.custom-block-label {
+		max-width: 60px;
+		left: 30px;
+		img {
+			max-width: 100%;
+			object-fit: contain;
+		}
+	}
+	.main-subheading {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.block-label__text {
+		min-width: 100px;
+	}
+	.block-label {
+		margin-top: 140px;
+	}
+}

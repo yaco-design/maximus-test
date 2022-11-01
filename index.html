@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maximus test</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">header</header>
+		<main class="main-content page">
+			<section class="custom-inputs">
+				<div class="container">
+					<h2 class="box-heading">Кастомные инпуты</h2>
+					<div class="custom-inputs-body">
+						<div class="custom-inputs-list">
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="checkbox">
+									<span class="icon"></span>
+									<span class="text">Sarabanda</span>
+								</label>
+							</div>
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="checkbox" checked>
+									<span class="icon"></span>
+									<span class="text">Minibanda</span>
+								</label>
+							</div>
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="checkbox">
+									<span class="icon"></span>
+									<span class="text">iDO</span>
+								</label>
+							</div>
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="checkbox">
+									<span class="icon"></span>
+									<span class="text">Superga</span>
+								</label>
+							</div>
+						</div>
+						<div class="custom-inputs-list">
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="radio" name="custom-list" checked>
+									<span class="icon"></span>
+									<span class="text">Sarabanda</span>
+								</label>
+							</div>
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="radio" name="custom-list">
+									<span class="icon"></span>
+									<span class="text">Minibanda</span>
+								</label>
+							</div>
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="radio" name="custom-list">
+									<span class="icon"></span>
+									<span class="text">iDO</span>
+								</label>
+							</div>
+							<div class="custom-inputs-list__item">
+								<label>
+									<input type="radio" name="custom-list">
+									<span class="icon"></span>
+									<span class="text">Superga</span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="custom-modal">
+				<div class="container">
+					<h2 class="box-heading">Кнопка и модальное окно</h2>
+					<button class="btn primary-btn open-modal" value="Заказать консультацию">
+						<span class="text">Заказать консультацию</span>
+					</button>
+					<div class="modal-body">
+						<div class="modal-content">
+							<button class="modal-dissmis-btn">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+									<!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+									<path
+										d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" />
+								</svg>
+							</button>
+							<h3 class="modal-title">Заказать консультацию</h3>
+							<form action="" class="modal-form">
+								<input type="text" placeholder="Ваше имя">
+								<input type="phone" placeholder="Ваш телефон" required>
+								<button type="submit" value="Заказать консультацию" class="btn primary-btn">
+									<span class="text">Заказать консультацию</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="tabs-section">
+				<div class="container">
+					<h2 class="box-heading">Вкладки (табы)</h2>
+					<ul class="tabs" data-tabgroup="first-tab-group">
+						<li><a href="#tab1" class="active">Самый дешевый</a></li>
+						<li><a href="#tab2">Самый быстрый</a></li>
+					</ul>
+					<div id="first-tab-group" class="tabgroup">
+						<div id="tab1" class="tabgroup__item">
+							<div class="tabs-section-card">
+								<div class="tabs-section-card__head">
+									<div class="price">13 400 Р</div>
+									<div class="company-logo">
+										<img src="img/s7-logo.jpg_large" alt="">
+									</div>
+								</div>
+								<div class="tabs-section-card__content">
+									<table>
+										<tbody>
+											<tr>
+												<td>
+													<span class="title">MOW - HKT</span>
+													<span class="subtitle">10:45 - 08:00</span>
+												</td>
+												<td>
+													<span class="title">в пути</span>
+													<span class="subtitle">21ч 15м</span>
+												</td>
+												<td>
+													<span class="title">2 пересадки</span>
+													<span class="subtitle">HKG, JNB</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<span class="title">MOW - HKT</span>
+													<span class="subtitle">10:45 - 08:00</span>
+												</td>
+												<td>
+													<span class="title">в пути</span>
+													<span class="subtitle">21ч 15м</span>
+												</td>
+												<td>
+													<span class="title">2 пересадки</span>
+													<span class="subtitle">HKG, JNB</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="tabs-section-card">
+								<div class="tabs-section-card__head">
+									<div class="price">13 400 Р</div>
+									<div class="company-logo">
+										<img src="img/s7-logo.jpg_large" alt="">
+									</div>
+								</div>
+								<div class="tabs-section-card__content">
+									<table>
+										<tbody>
+											<tr>
+												<td>
+													<span class="title">MOW - HKT</span>
+													<span class="subtitle">10:45 - 08:00</span>
+												</td>
+												<td>
+													<span class="title">в пути</span>
+													<span class="subtitle">21ч 15м</span>
+												</td>
+												<td>
+													<span class="title">2 пересадки</span>
+													<span class="subtitle">HKG, JNB</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<span class="title">MOW - HKT</span>
+													<span class="subtitle">10:45 - 08:00</span>
+												</td>
+												<td>
+													<span class="title">в пути</span>
+													<span class="subtitle">21ч 15м</span>
+												</td>
+												<td>
+													<span class="title">2 пересадки</span>
+													<span class="subtitle">HKG, JNB</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div id="tab2" class="tabgroup__item">
+							<div class="tabs-section-card">
+								<div class="tabs-section-card__head">
+									<div class="price">13 400 Р</div>
+									<div class="company-logo">
+										<img src="img/s7-logo.jpg_large" alt="">
+									</div>
+								</div>
+								<div class="tabs-section-card__content">
+									<table>
+										<tbody>
+											<tr>
+												<td>
+													<span class="title">MOW - HKT</span>
+													<span class="subtitle">10:45 - 08:00</span>
+												</td>
+												<td>
+													<span class="title">в пути</span>
+													<span class="subtitle">21ч 15м</span>
+												</td>
+												<td>
+													<span class="title">2 пересадки</span>
+													<span class="subtitle">HKG, JNB</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<span class="title">MOW - HKT</span>
+													<span class="subtitle">10:45 - 08:00</span>
+												</td>
+												<td>
+													<span class="title">в пути</span>
+													<span class="subtitle">21ч 15м</span>
+												</td>
+												<td>
+													<span class="title">2 пересадки</span>
+													<span class="subtitle">HKG, JNB</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="custom-block">
+				<div class="container">
+					<h1 class="main-heading">Первые заявки из контекстной рекламы
+						уже через 7 дней!</h1>
+					<h2 class="main-subheading">Повышаем продажи, а не просто настраиваем
+						контекстную рекламу</h2>
+					<button class="btn yellow-btn" value="Оставить заявку">Оставить заявку</button>
+					<div class="block-label">
+						<div class="block-label__elem">Оставьте заявку</div>
+						<div class="block-label__text">Получи подарок<br> — часовая консультация маркетолога</div>
+					</div>
+					<div class="custom-block-first-img">
+						<img src="img/first-img.png" alt="">
+					</div>
+					<div class="custom-block-second-img">
+						<img src="img/second-img.png" alt="">
+					</div>
+					<div class="custom-block-label">
+						<img src="img/cst-img.png" alt="">
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">footer</footer>
+	</div>
+
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
